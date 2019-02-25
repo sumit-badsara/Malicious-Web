@@ -1,0 +1,6 @@
+joblib >= 0.13.1
+numpy
+scikit-learn
+beautifulsoup4
+whois
+google
