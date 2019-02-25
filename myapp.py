@@ -12,7 +12,10 @@ def home():
 @app.route("/check/", methods=['POST'])
 def check_url():
     url = request.form.get("url")
-    urllib.urlretrieve(url, "markup.txt")
+    try:
+        urllib.urlretrieve(url, "markup.txt")
+    except:
+        return "PHISHING"
     return main(url)
     
 @app.route("/train/", methods=['GET'])
