@@ -13,8 +13,8 @@ function transfer(){
 		xhr.send(markup);
 //		alert(xhr.responseText);
 
-
-		$("#div1").text(xhr.responseText);
+		response = xhr.responseText.replace(/^\s*/,'').replace(/\s*$/,'')
+		$("#div1").text(response);
 		if(xhr.responseText == "SAFE")
 		{
 			document.getElementById('div1').style.color = "#55ba57";

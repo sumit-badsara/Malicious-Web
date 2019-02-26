@@ -1,9 +1,18 @@
 body{
-    width:400px;
-    height:80px;
+    width:420px;
+    /* height:80px; */
+    max-height: 500px;
     display:inline-block;
-    }
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;  
+  }
  
+  html{
+    width:420px;
+    max-height:80px;
+    
+  }
+
  @import url(http://fonts.googleapis.com/css?family=Nunito:300);
  
  body { font-family: "Nunito", sans-serif; font-size: 15px; background: black; color: white; }
@@ -29,13 +38,13 @@ body{
      top: initial;
      right: 100px;
      bottom: 140px;
-     left: 120px;
+     left: 100px;
    
    padding: 10px 0;
    width: 50%;
    height:5%;
  
-   background: rgb(108, 189, 226);
+   background: #4286f4;
    border: 1px solid rgb(108, 189, 226);
    color: #FFF;
    overflow: hidden;
@@ -93,12 +102,7 @@ body{
    right: 0;
    top: 50%;
  }
- 
- #p1
- {
-     font-size:30px;
-     display:inline-block;
- }
+
  
  #div1
  {
@@ -106,4 +110,12 @@ body{
      /* line-height: 50px; the same as your div height */
      text-align:center;
      font-size:70px;
+     margin-top:-110px;
  }
+#p1 {
+  color: grey;
+  font-size: 17px;
+  display: inline-block;
+  word-wrap: break-word;
+  width: 270px;
+}
