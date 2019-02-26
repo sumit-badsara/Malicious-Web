@@ -6,9 +6,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href={{ url_for('static', filename='style.css') }}>
     <link rel="stylesheet" href="style.css">
+    <style>
+
+    body {
+      height: 400px;
+      width: 400px;
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsxYL43dOvOrCzXxhCXumTI-Uit3T925zM5G6Z_9J8qRJAUB2sjg") no-repeat;
+        background-size:cover;
+        color:white;
+        font-size: 400px;
+        font-family: "Gill Sans", sans-serif;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -200px;
+    }
 </head>
 <body>
-    <center><h1>MALWARE CHECK</h1></center><br>
-    <div class="sol">{{predict}}</div>
+    
+
+    <div class="sol"><center><h1>{{Predict}}</h1></center></div>
 </body>
 </html>
