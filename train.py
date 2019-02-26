@@ -1,7 +1,7 @@
 import numpy as np
 
 from sklearn.ensemble import RandomForestClassifier
-# from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report
 # from sklearn import metrics
 
 import joblib
@@ -23,8 +23,8 @@ def train_me():
 
     features_train = features
     labels_train = labels
-    # features_test=features[10000:]
-    # labels_test=labels[10000:]
+    features_test=features[10000:]
+    labels_test=labels[10000:]
 
 
     print("\n\n ""Random Forest Algorithm Results"" ")
@@ -39,9 +39,9 @@ def train_me():
     for f in range(features_train.shape[1]):
         print("%d. feature %d (%f)" % (f + 1, indices[f], importances[indices[f]]))
 
-    # pred4=clf4.predict(features_test)
+    pred4=clf4.predict(features_test)
     # print(classification_report(labels_test, pred4))
-    # print 'The accuracy is:', accuracy_score(labels_test, pred4)
+    print 'The accuracy is:', accuracy_score(labels_test, pred4)
     # print metrics.confusion_matrix(labels_test, pred4)
 
     # sys.setrecursionlimit(9999999)
