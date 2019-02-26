@@ -16,7 +16,7 @@ def check_url():
     try:
         urllib.urlretrieve(url, "markup.txt")
     except:
-        return "PHISHING"
+        return "MALICIOUS"
     print("In Here")
 <<<<<<< HEAD
     return main(url)
