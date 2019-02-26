@@ -3,8 +3,6 @@
 body{
   background: #343533;
   font-family: 'Open Sans', sans-serif;
-  min-height : 600px;
-  min-width: 600px;
 }
 
 .search {
@@ -23,20 +21,13 @@ body{
   color: black;
 }
 
-.solution
-{
-  margin:auto;
-  color:white;
-}
-
-
 .searchTerm:focus{
   color: grey;
 }
 
 .searchButton {
   position: absolute;  
-  right: -50px;
+  right: -55px;
   width: 100px;
   height: 36px;
   border: 1px solid grey;
@@ -48,12 +39,24 @@ body{
   font-size: 20px;
 }
 
+.solution
+{
+  margin:auto;
+  color:white;
+}
+
+h1{
+  color:white;
+  margin-top: 250px;
+  font-size:60px;
+}
+
 /*Resize the wrap to see the search bar change!*/
 .wrap{
   display: inline-block;
   width: 30%;
   position: absolute;
   top: 50%;
-  left:25%;
+  left:27%;
   transform: translate(-50%, -50%);
 }

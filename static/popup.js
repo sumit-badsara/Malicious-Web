@@ -8,21 +8,11 @@ function transfer(){
 		params="url="+tablink;
 //		alert(params);
 		var markup = "url="+tablink+"&html="+document.documentElement.innerHTML;
-		xhr.open("POST","http://localhost:8000/check/",false);
+		xhr.open("POST","http://localhost:5000/check/",false);
 		xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 		xhr.send(markup);
 //		alert(xhr.responseText);
-
-
 		$("#div1").text(xhr.responseText);
-		if(xhr.responseText == "SAFE")
-		{
-			document.getElementById('div1').style.color = "#55ba57";
-		}
-		else
-		{
-			document.getElementById('div1').style.color = "#e85c35";
-		}
 		return xhr.responseText;
 	});
 }
