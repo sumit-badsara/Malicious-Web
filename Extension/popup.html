@@ -7,15 +7,18 @@
     <link rel="stylesheet" href={{ url_for('static', filename='style.css') }}>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <center><h1>MALWARE CHECK</h1></center>
+<body style="margin: 0px">
+  <br><br><br><br><br>
+  <font size="6"><center><h1>MALWARE CHECK</h1></center></font>
+
+
+
     <form action="/check/" method="POST">
-    <div class="wrap form-horizontal">
+    <div class="wrap">
         <div class="search">
            <input type="text" class="searchTerm" name="url" placeholder="Enter URL...">
-           <br><br><button type="submit" class="searchButton">
-             <i class="fa fa-search"></i>
-          </button>
+           <br>
+          <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
         </div>
      </div>
     </form>
