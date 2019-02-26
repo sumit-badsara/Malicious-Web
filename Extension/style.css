@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 
 body{
-  background: #343533;
-  font-family: 'Open Sans', sans-serif;
-  min-height : 600px;
-  min-width: 600px;
+  background: url("https://www.eyerys.com/sites/default/files/hacking.png") no-repeat;
+  background-size:cover;
+
+  min-height : 400px;
+  min-width: 400px;
 }
 
 .search {
@@ -15,7 +16,7 @@ body{
 .searchTerm {
   display: inline-block;
   width: 200%;
-  border: 3px solid #f5ffea;
+
   padding: 5px;
   height: 40px;
   border-radius: 5px;
@@ -28,32 +29,30 @@ body{
   margin:auto;
   color:white;
 }
+.search-icon{
+  position: relative;
+  float: right;
+  width: 100px;
+  height: 100px;
+  top: -80px;
+  right: -300px;
+}
 
 
 .searchTerm:focus{
   color: grey;
 }
 
-.searchButton {
-  position: absolute;
-  right: -50px;
-  width: 100px;
-  height: 36px;
-  border: 1px solid grey;
-  background: grey;
-  text-align: center;
-  color: black;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-}
+
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
   display: inline-block;
-  width: 30%;
+  width:14%;
   position: absolute;
-  top: 50%;
-  left:25%;
+  top: 75%;
+  left:40%;
+
+
   transform: translate(-50%, -50%);
 }
