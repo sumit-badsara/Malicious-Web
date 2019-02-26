@@ -41,7 +41,7 @@ def train_me():
 
     pred4=clf4.predict(features_test)
     # print(classification_report(labels_test, pred4))
-    print 'The accuracy is:', accuracy_score(labels_test, pred4)
+    print ('The accuracy is:', accuracy_score(labels_test, pred4))
     # print metrics.confusion_matrix(labels_test, pred4)
 
     # sys.setrecursionlimit(9999999)
