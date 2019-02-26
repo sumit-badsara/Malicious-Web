@@ -27,3 +27,7 @@ chrome.tabs.getSelected(null,function(tab) {
    	var tablink = tab.url;
 	$("#p1").text("The URL being tested is - "+tablink);
 });
+
+$(".close-btn").click(function(){
+	$(".search-section").slideToggle();
+});

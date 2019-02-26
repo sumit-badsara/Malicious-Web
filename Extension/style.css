@@ -1,7 +1,10 @@
 body{
-   width:500px;
+   widows: 100xh;
    height:100px;
    display:inline-block;
+   background: #181818;
+	 font-family: 'Overpass', sans-serif;
+	 margin: 0;	
    }
 
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
@@ -11,6 +14,107 @@ a    { text-decoration: none; }
 p    { text-align: center; }
 sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
 
+
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+svg {display: block;}
+
+
+.heading {
+	background: #181818a;
+	text-align: center;
+}
+
+.heading h1 {
+	color: white;
+	font-size: 28px;
+	font-weight: 600;
+	margin: 0;
+	line-height: 1.3;
+	padding: 24px 0 6px;
+}
+
+.heading h2 {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0;
+	line-height: 1.3;
+	padding: 6px 0 24px;
+}
+
+.header-bar {
+	background: #282828;
+	border-bottom: 2px solid #484848;
+	border-top: 2px solid #484848;
+	font-size: 16px;
+	position: relative;
+	min-height: 140px;
+}
+
+.container {
+	margin: auto;
+	width: 1000px;
+}
+
+.search-btn {
+	cursor: pointer;
+	display: inline-block;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.search-section {
+	background: #383838;
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.search-container {
+	position: absolute;
+	top: 50%;
+	transform: translate(-50% , -50%);
+	left: 50%;
+}
+
+.search-form {display: inline-block;}
+
+.search-section input {
+	background: none;
+	border: 2px solid white;
+	border-right: none;
+	color: white;
+	font-size: 20px;
+	height: 60px;
+	padding-left: 14px;
+	padding-right: 14px;
+	width: 800px;
+}
+
+.search-section button {
+	background: none;
+  	border: 2px solid white;
+	border-left: none;
+  	cursor: pointer;
+  	float: right;
+  	height: 60px;
+  	padding-right: 14px;
+}
+
+.close-btn {
+	cursor: pointer;
+   display: inline-block;
+   margin-left: 20px;
+}
 
 .button
 {
