@@ -18,8 +18,15 @@ def check_url():
     except:
         return "PHISHING"
     print("In Here")
+<<<<<<< HEAD
     return main(url)
 
+=======
+    prediction =  main(url)
+
+    return render_template('predict.html',predict=prediction)
+    
+>>>>>>> f06ebb89afcdbfdf88f8acae96208a2b57e57a14
 @app.route("/train/", methods=['GET'])
 def train_model():
     return train_me()
