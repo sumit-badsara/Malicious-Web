@@ -28,8 +28,9 @@ function transfer(){
 }
 
 $(document).ready(function(){
-    $("button").click(function(){	
-		var val = transfer();
+    $("button").click(function(){
+		$("div#div1").show();	
+		return transfer();
     });
 });
 

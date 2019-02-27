@@ -1,108 +1,992 @@
-<!doctype html><html class="t-white" ng-app="googleFonts" ng-controller="AppController as app" ng-strict-di><head><meta charset="utf-8"><meta name="description" content="Making the web more beautiful, fast, and open through great typography"><meta property="og:site_name" content="Google Fonts"><meta property="og:url" content="https://fonts.google.com/"><meta property="og:title" content="Google Fonts"><meta property="og:description" content="Making the web more beautiful, fast, and open through great typography"><meta property="og:image" content="https://www.gstatic.com/images/icons/material/apps/fonts/1x/opengraph_color_1200dp.png"><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"><!-- Favicon --><link rel="icon" href="https://www.gstatic.com/images/branding/product/ico/google_fonts_lodp.ico" type="image/x-icon"><!-- Mobile homescreen configuration --><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="apple-touch-icon" href="https://www.gstatic.com/images/branding/product/1x/google_fonts_ios_60dp.png"><link rel="apple-touch-icon" sizes="76x76" href="https://www.gstatic.com/images/branding/product/1x/google_fonts_ios_76dp.png"><link rel="apple-touch-icon" sizes="120x120" href="https://www.gstatic.com/images/branding/product/2x/google_fonts_ios_60dp.png"><link rel="apple-touch-icon" sizes="152x152" href="https://www.gstatic.com/images/branding/product/2x/google_fonts_ios_76dp.png"><link rel="apple-touch-icon" sizes="180x180" href="https://www.gstatic.com/images/branding/product/1x/google_fonts_ios_180dp.png"><!-- Font face CSS --><style>@font-face{font-family:'Adobe Blank';font-style:normal;font-weight:400;src:local('Adobe Blank'),local('AdobeBlank-Regular'),url(//fonts.gstatic.com/s/adobeblank/v4/ieV62YNKKGqPJteRQT8EQmoe.ttf)format('truetype');}@font-face{font-family:'Product Sans';font-style:normal;font-weight:400;src:local('Product Sans'),local('ProductSans-Regular'),url(//fonts.gstatic.com/s/productsans/v9/pxiDypQkot1TnFhsFMOfGShVF9eL.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc9.ttf)format('truetype');}@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:400;src:local('Roboto Mono Regular'),local('RobotoMono-Regular'),url(//fonts.gstatic.com/s/robotomono/v5/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf)format('truetype');}@font-face{font-family:'Roboto Mono';font-style:normal;font-weight:700;src:local('Roboto Mono Bold'),local('RobotoMono-Bold'),url(//fonts.gstatic.com/s/robotomono/v5/L0xkDF4xlVMF-BfR8bXMIjDwjmqxf7o.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'),local('Roboto-Thin'),url(//fonts.gstatic.com/l/font?kit=KFOkCnqEu92Fr1MmgWxPMTsRBPHDp7t6Tk2DOWA&skey=5473b731ec7fc9c1&v=v18)format('truetype');}</style><!-- Application CSS --><link rel="stylesheet" href=&#47;&#47;www.gstatic.com&#47;_&#47;fonts&#47;_&#47;ss&#47;k&#61;fonts.app.&#45;d55xb3viz293.L.X.O&#47;d&#61;0&#47;rs&#61;AE60u5dwIaKdVhDdwvPbRxyHSYMTigt2Tw><title ng-bind="app.pageTitle">Google Fonts</title><base href="/" target="_blank"/>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.setAttribute('nonce',m.nonce||m.getAttribute('nonce'));m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+﻿
 
-      ga('create', 'UA-24053025-2', 'auto');
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="icon" href="https://www.sih.gov.in/img/favicon-sih.png" type="image/png" sizes="16x16">
+        <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="csrf-token" content="E9J70Yc8jgHbWcRt73rcTsJwIXdLBAuhl63xCRr3">
+        <meta name="author" content="">
+        <title>SIH</title>
+		
+		<script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-131850444-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+          </script>
+    <!-- CSS-->
+    <link type="text/css" rel="stylesheet"  href="https://www.sih.gov.in/lib/bootstrap-3.3.7/css/bootstrap.min.css"/>
+    
+  
+    <!-- JS-->
+    <script src="https://www.sih.gov.in/lib/jquery-3.0.0.min.js" type="text/javascript"></script>
+    <script src="https://www.sih.gov.in/lib/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://www.sih.gov.in/css/style.css" rel="stylesheet" />
+   <script type="text/javascript" src=" https://www.sih.gov.in/js/typeahead.js"></script>
+</head>
+
+<body>
+        <a href="#" class="scrollup">Scroll</a>
+        <style>
+        .style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+  background-color: #F5F5F5;
+  width: 6px;
+  height: 6px;
+}
+
+.style-2::-webkit-scrollbar
+{
+  width: 6px;
+  height: 6px;
+	background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar-thumb
+{
+  width: 6px;
+  height: 6px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #000d27;
+}
+#notification_counter{
+    display: none;
+}
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.zip {
+    text-decoration: none !important;
+}
+.zip:hover { color:white !important; }
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-direction: alternate;
+    color: white;
+}
+
+.typeahead {
+    color: black;
+    }
+	.tt-menu { width:100%; }
+	ul.typeahead{margin:0px;padding:10px 0px;
+    background: white !important;}
+	ul.typeahead.dropdown-menu li a {
+        padding: 10px !important;	
+        border-bottom:#CCC 1px solid;
+        color:black;
+        }
+        ul.typeahead.dropdown-menu li {
+            list-style: none !important;
+            margin-left: 0px !important;
+        }
+        
+	ul.typeahead.dropdown-menu li:last-child a { border-bottom:0px !important; }
+
+	.demo-label {font-size:1.5em;color: #686868;font-weight: 500;color:#FFF;}
+	.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+		text-decoration: none;
+		background-color: orange;
+		outline: 0;
+	}
+    .image_resize{
+max-width:10em;
+max-height:10em;
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+object-fit: contain;
+}
+.image_resize_pop{
+max-width:15em;
+max-height:15em;
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+object-fit: contain;   
+}
+        </style>
+        
+    <div class="container-fluid">
+           
+        <!--Header Starts-->
+        <header id="header"  class="header">
+
+
+            <div class="row bg-light navbar-fixed-top">
+
+
+			
+			<li class="nav-item"  style="position:absolute;color:white;z-index:9999;width:100%;text-align:center;font-size:21px;font-weight:36;background:#03132E">
+                   <marquee>
+					<a  href="https://www.sih.gov.in/finalResult" style="color: #FFF;text-decoration:none">
+				        SIH2019 final results - software edition declared.
+					</a>
+					
+					<a href="https://www.sih.gov.in/nodalCenterList"  style="color: #FFF;text-decoration:none">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					Software Hackathon Dates : 2nd and 3rd March 2019. Please click to know your Nodal Center.
+					</a>
+					
+					<a  class=" nav-link blink zip" 
+					href="https://www.sih.gov.in/zip/Student Repository-20190215T130739Z-001.zip">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspStudent Repository (Click to Download)</a>
+					
+					</marquee>
+					
+                    </li>
+
+                    
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 left_menu">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            
+                                <i class="fa fa-bars navbar-toggle collapsed show_toggle"
+                                data-toggle="collapse" 
+                                data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false"></i>
+                            <a class="navbar-brand"  href="https://www.sih.gov.in">
+                                    <img src="https://www.sih.gov.in/img/logo.png" />
+                                </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                              
+
+                                                                    <ul class="navbar-nav nav">
+                                        <li class="dropdown nav-item">
+                                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/sih2017">SIH-2017</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/sih2018Software">SIH-2018 Software</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/sih2018Hardware">SIH-2018 Hardware</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/sih2019">SIH-2019</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown nav-item">
+                                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/mediaNewsUpdate">News Updates</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/mediaSocialMedia">Social Media</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://www.sih.gov.in/importantResources">Important Resources</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/faqs">FAQs</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.sih.gov.in/contactUs">Contact Us</a>
+                                                </li>
+												<li>
+                                                    <a href="https://www.sih.gov.in/knowYourCollegeSPOC">Know Your College SPOC</a>
+                                                </li>
+												<li>
+                                                    <a href="https://www.sih.gov.in/evaluationCriteria">Evaluation Criteria And Methodology Followed</a>
+                                                </li> 
+												
+                                            </ul>
+                                        </li>
+										 <!--<li class="nav-item">
+                                            <a class="nav-link" href="https://www.sih.gov.in/knowYourCollegeSPOC">Know Your College SPOC</a>
+                                        </li>-->
+										
+										 <li class="nav-item">
+                                            <a class="nav-link" href="https://www.sih.gov.in/nodalCenterList">Nodal Center List</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a class="nav-link" href="https://www.sih.gov.in/finalResult">Results</a>
+                                        </li>
+										<li class="nav-item">
+                                            <a  class="nav-link" 
+					href="https://www.sih.gov.in/zip/Student Repository-20190215T130739Z-001.zip">Student Repository</a>
+                                        </li>
+										
+										 <li class="nav-item">
+                                                <a class="nav-link" href="https://www.sih.gov.in/aViewCalendar">A-view Calendar</a>
+                                            </li>
+
+                                       
+                                    </ul>
+                            
+                        </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 right_menu">
+                    <div class="pull-right secondory-links">
+                            
+                        <a class="nav-link" href="https://www.sih.gov.in/grievance"><blink>Grievance</blink></a> |
+                        <a class="nav-link"  href="https://www.sih.gov.in/signin">Log in</a> |
+                        <a class="nav-link" href="javascript:void(0)" data-toggle="modal" data-target="#Registeration_type_modal">Register</a>
+                            
+                    </div>
+
+
+                    
+                </div>
+            </div>
+        </header>
+
+     
+
+
+        <style>
+.addIcon{
+    cursor: pointer;
+}
+.latest-news div.news-heading {
+    font-size: 31px;
+    line-height: 27px;
+    padding-top: 23px;
+    text-align: center;
+    background-image:none;
+    background-size: 48px;
+}
+</style>
+<div class="row" style="margin-bottom:50px;">
+    <!--Banner-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active addIcon" onclick="loadthis()">
+                <img class="d-block w-100" src=" https://www.sih.gov.in/img/banner_SIH2019_0.png" alt="First slide">
+            </div>
+            <div class="item addIcon" onclick="loadthis()">
+                <img class="d-block w-100" src=" https://www.sih.gov.in/img/banner_SIH2019_1.png " alt="Second slide">
+            </div>
+            <div class="item addIcon" onclick="loadthis()">
+                <img class="d-block w-100" src="https://www.sih.gov.in/img/banner_SIH2019_2.png"  alt="Third slide">
+            </div>
+			  <div class="item addIcon" onclick="loadthis()">
+                <img class="d-block w-100" src="https://www.sih.gov.in/img/banner_SIH2019_3.png"  alt="Fourth slide">
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+        <a class="right carousel-control" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+    </div>
+    
+    <div class="latest-news clearfix">
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 grey news-heading">
+               Prizes
+            </div>
+            <div class="carousel slide multi-item-carousel col-lg-offset-2 col-md-offset-3 col-sm-offset-3" >
+                <div class="carousel-inner">
+                    
+                    <div class="item active">
+                        
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                    <img class="d-block w-100 three_div" src=" https://www.sih.gov.in/img/1.jpg" alt="First slide" width="100" height="100px">
+                            </div>
+                        
+                    </div>
+                    <div class="item">
+                       
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                    <img class="d-block w-100 three_div" src=" https://www.sih.gov.in/img/2.jpg" alt="First slide" width="100" height="100px">
+                            </div>
+                        
+                    </div>
+                    <div class="item">
+                        
+                            <div class="col-lg-4 col-md-6 col-sm-4 col-xs-6">
+                                    <img class="d-block w-100 three_div" src=" https://www.sih.gov.in/img/3.jpg" alt="First slide" width="100" height="100px">
+                            </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    <div class="partners">
+            
+            <span class="logos title">
+                Organizer
+            </span>
+            <span class="logos">
+                <a href="http://mhrd.gov.in/" target="_blank">
+                    <img class="logo-margin" src=" https://www.sih.gov.in/img/partner-supporters/mhrd-logo.png">
+                </a>
+            </span>
+           
+            <span class="logos">
+                <a href="https://www.aicte-india.org/" target="_blank">
+                    <img class="logo-margin" src=" https://www.sih.gov.in/img/partner-supporters/aicte-logo.png">
+                </a>
+            </span>
+            <span class="logos">
+                <a href="https://www.persistent.com/" target="_blank">
+                    <img class="logo-margin" src=" https://www.sih.gov.in/img/partner-supporters/persistent-logo.png">
+                </a>
+            </span>
+            <span class="logos">
+                <a href="https://i4c.in/" target="_blank">
+                    <img class="logo-margin" src="  https://www.sih.gov.in/img/partner-supporters/i4c-logo.png">
+                </a>
+            </span>
+            <span class="logos">
+                <a href="http://www.rmponweb.org/" target="_blank">
+                    <img class="logo-margin" src=" https://www.sih.gov.in/img/partner-supporters/rambhau-mhalagi-prabodhini-logo.png">
+                </a>
+            </span>
+
+                <span class="logos">
+                <a href="http://www.mic.gov.in/" target="_blank">
+                <img class="logo-margin" src=" https://www.sih.gov.in/img/partner-supporters/MIC_logo_name.jpg">
+                </a>
+                </span>
+
+        </div>
+    <!-- SIH Details -->
+    <div class="intro clearfix">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 same_div_left">
+                        <div class="youtube-player" data-id="acNZGvGC5Mk">
+                                <div class="play-button"></div>
+                            </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 same_div_left">
+                        <a href="https://developer.cisco.com/site/sih/" target="_blank">
+                            <img src="https://www.sih.gov.in/img/cisco_devnet.png"  style="object-fit: cover; width:100%;height:50%; " />
+                          </a>
+                    </div>
+               
+            </div>
+            <style>
+                .text_size_increase{
+                    font-size: 17px !important
+                }
+                .new_side_bar{
+                    color: white;
+    background-color: #039ffb;
+    height: 69px;
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 26px;
+    border-radius: 19px;
+    width: 374px;
+    padding-top: 12px;
+                }
+                .new_side_bar_registration_date{
+                    color: red;
+                    background-color: #fdfd00;
+                    height: 88px;
+                    text-align: center;
+                    font-size: 17px;
+                    margin-bottom: 26px;
+                    border-radius: 19px;
+                    width: 258px;
+                    font-weight: bold;
+                    padding-top: 17px;
+                }.
+                last_dates{
+
+                }
+            </style>
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <h3 class="intro-heading" >Smart India Hackathon</h3>
+                <p class="text_size_increase">Innovation and entrepreneurship are at the peak in India. In order to make development a comprehensive mass movement and innovate on all fronts, MHRD, AICTE, i4c and Persistent Systems have come together to organise Smart India Hackathon (SIH) 2019 - a unique Open Innovation Model for identifying new and disruptive technology innovations to solve the challenges faced in our country. It's a non-stop product development competition, where problem statements are posed to technology students for innovative solutions. It can help to:</p>
+                <ul>
+                    <li  class="text_size_increase">Harness creativity &amp; expertise of students</li>
+                    <li  class="text_size_increase">Spark institute-level hackathons</li>
+                    <li  class="text_size_increase">Build funnel for 'Startup India' campaign</li>
+                    <li  class="text_size_increase">Crowdsource solutions for improving governance and quality of life</li>
+                    <li  class="text_size_increase">Provide opportunity to citizens to provide innovative solutions to India's daunting problems</li>
+                </ul>
+                <p  class="text_size_increase">The first two editions SIH2017 and SIH2018 proved to be extremely successful in promoting innovation, out-of-the-box thinking in young minds, especially engineering students from across India.</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    
+<a href="https://swayam.gov.in/courses/5796-designing-digital-solution" target="_blank">
+                 <img class="" src="https://www.sih.gov.in/img/traning-banner.jpg">
+				 				</a>
+								<h4 class="intro-heading">DESIGNING DIGITAL SOLUTION – Training program</h4>
+					<ul>
+					<li class="text_size_increase">45+ hours of training programs on various topics</li>
+					<li class="text_size_increase">Best industry experts / coaches will deliver trainings</li>
+					<li class="text_size_increase">Certificate on successful completion of trainings</li>
+					</ul>
+				
+            </div>
+        </div>
+
+    <!-- SIH HACKATHON EVENT IMAGE -->
+    <div class="event-images">
+            <div class="col-md-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="title">Smart India Hackathon 2017</div>
+                    <a href="https://www.sih.gov.in/sih2017">
+                        <div class="image-holder">
+                            <img src=" https://www.sih.gov.in/img/SIH-2017.png"  alt="SIH-2017">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="title">Smart India Hackathon 2018</div>
+                    <div class="image-holder">
+                        <a href="https://www.sih.gov.in/sih2018Software" class="sw">SIH 2018 Software</a>
+                        <a href="https://www.sih.gov.in/sih2018Hardware" class="hw">SIH 2018 Hardware</a>
+                        <img src=" https://www.sih.gov.in/img/SIH-2018-sw.png" alt="SIH-2018-Software Edition">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="title">Smart India Hackathon 2019</div>
+                    <a href="https://www.sih.gov.in/sih2019">
+                        <div class="image-holder">
+                            <img src=" https://www.sih.gov.in/img/SIH-2018-hw.png" alt="SIH-2018-Hardware Edition">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+</div>
+<script>
+            function SendUserToItsPage(input){
+switch (input) {
+    case 1:
+    window.open("https://www.sih.gov.in/signup","_self");
+    break;
+
+    case 2:
+    window.open("https://www.sih.gov.in/collegeRegistration","_self");
+    break;
+
+    case 3:
+    window.open("https://www.sih.gov.in/studentRegistration","_self");
+     break;
+
+    case 4:
+    window.open("https://www.sih.gov.in/sih2019ProblemStatements","_self");
+     break;
+     
+    case 5:
+    window.open("https://www.sih.gov.in/sih2019ProblemStatementstudentInnovation","_self");
+     break;   
+}
+
+    }
+	
+	function loadthis(){
+		console.log("hello");
+		window.open("https://www.sih.gov.in/finalResult","_self");
+	}
     </script>
-<script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=jtrpx2dfmmxrejzjn3qpmrxsli"></script></head>
-  <body ng-class="{'app-ready': app.appReady}" itemscope itemtype="http://schema.org/WebPage" ng-attr-itemtype="{{ app.pageEntity }}">
-    <div ng-if="app.viewDisabled" class="blank-page">
-      <div class="blank-page-header">
-        <!-- Ensures that the page gets fully reloaded. -->
-        <a href="#" onclick="window.location.href = '/'">
-          <span class="lockup-logo"></span>
-          <span class="lockup-brand">&nbsp;Fonts</span>
-        </a>
-      </div>
-      <gf-error type="app.viewErrorType"></gf-error>
+
+        <footer class="footer row"  style="padding: 17px 0 21px 25px;">
+
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12 xs-footer-logo" style="padding-left: 104px;">
+                    <img src="https://www.sih.gov.in/img/footer_logo.png" alt="SIH" />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12 xs-footer-logo">
+
+                    <a class="sih-app-logo" target="_blank" href="https://play.google.com/store/apps/details?id=com.psl.sihapps&amp;hl=en">
+                        <img src="https://www.sih.gov.in/img/sih_app_icon.png" class="pull-left" alt="SIH" /> DOWNLOAD
+                        <br> Smart India Hackathon app
+                        <br>from Google Play Store
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12" style="padding-left: 0px;">
+                    <ul class="footer-links">
+                    <li>
+                        <i class="fa fa-phone"></i> +91 20 49006587
+                    </li>
+                    
+                    <li>
+                        <i class="fa fa-clock-o"></i> Mon to Fri-10.00 AM to 6:00 PM
+                    </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-12">
+                    <ul class="footer-links">
+
+                        <li>
+                            <a class="fb" target="_blank" href="https://www.facebook.com/i4C.India/">
+                                <img src="https://www.sih.gov.in/img/fb-icon.png" alt="Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fb" target="_blank" href="https://twitter.com/sih2019">
+                                <img src="https://www.sih.gov.in/img/twitter-icon.png" alt="twitter" />
+                            </a>
+                        </li>
+                        <li>
+                        <a class="fb" target="_blank" href="https://www.instagram.com/sih2019/">
+                            <img src="https://www.sih.gov.in/img/instagram-logo-white.png" alt="Instagram" width="25" height="25">
+                        </a>
+                    </li>
+					
+                    </ul>
+                </div>
+                 
+
+                <!-- Copyright-->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align:center;margin-top: 15px;">
+                        &copy; 2019 Smart India Hackathon. All rights reserved
+                </div>
+            </footer>
+
+       
     </div>
-    <div ng-if="!app.viewDisabled" class="full-page">
-      <header id="header" gf-header ng-class="app.layoutClass">
-        <div class="header-corner">
-          <!-- Note that we structure this as a <button.md-button>, and not an <md-button>,
-               so the page renders properly before Angular has bootstrapped. -->
-          <button class="md-button md-icon-button header-icon header-menu-button" md-button ng-click="app.openNavDrawer()" aria-label="Open navigation drawer">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-            </svg>
-          </button>
+
+    <div class="modal fade" id="Profile_status" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"  style="text-align: center;">Profile Status</h4>
+                </div>
+                <div class="modal-body">
+                  <p>Your Application is not approved. Please contact to Admin .</p>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+
+          
+          <div class="modal fade" id="logoUploaderModal" role="dialog">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                        <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator" id="logo_upload_form"  method="POST" action="">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"  style="text-align: center;">Upload Logo</h4>
+                        </div>
+                            <div class="modal-body">
+                                
+                                   
+                                        <input type="hidden" name="_token" value="E9J70Yc8jgHbWcRt73rcTsJwIXdLBAuhl63xCRr3">
+                                        <div class="form-group">
+                                         
+                                          <div class="col-lg-4 col-md-4 col-xs-4 col-sm-4">
+                                                <label  for="email">Select File:</label>
+                                              </div>
+                                              <div class="col-lg-8 col-md-8 col-xs-8 col-sm-8">
+                                            <input type="file" name="logo" id="logo">
+                                          </div>
+                                        </div>
+                                        <span id="upload_msg"></span>      
+                                <strong style="color:red"><br>
+                                                          File Size Should Be Less Than 5 MB.<br>
+                                                          File Type Should Be of Format(s) (JPG,JPEG,PNG).<br>
+                                                        
+                                </strong>         
+                            </div>
+
+                            <div class="modal-footer">
+                                
+                                    <button type="submit" class="btn btn-default" id="submit_button">Submit</button>
+                            </div>
+
+                        </form> 
+                       
+                </div>
+    
+                </div>
+                </div>
+
+
+                <div class="modal fade" id="logoViewerModal" role="dialog">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                            <form class="form-horizontal"  enctype="multipart/form-data" role="form" data-toggle="validator" id="logo_upload_form"  method="POST" action="">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="text-align: center;"> Logo</h4>
+                            </div>
+                                <div class="modal-body">
+                                    
+                                                              
+                                        
+                                </div>
+    
+                               
+    
+                            </form> 
+                           
+                    </div>
+                    </div>
+                    </div>
+
+          
+    <script src="https://www.sih.gov.in/js/common.js"></script>  
+
+        <script>
+        $(document).ready(function(){
+            setTimeout(function() {
+                $('#Alert_msg').fadeOut('fast');
+}, 3000); 
+});
+
+ function CancelEvent() {
+            var e = window.event;
+            //e.cancelBubble is supported by IE
+            e.cancelBubble = true;
+            e.returnValue = false;
+            //e.stopPropagation works only in Firefox.
+            if (e.stopPropagation) {
+                e.stopPropagation();
+                e.preventDefault();
+            }
+        }
+
+        //Disable the click event of form 
+        $(document).keypress(function (e) {
+            //Check which key is pressed on the document or window
+            if (e.which == 13) {
+                // if it is 13 that means enter key pressed, then call the function to cancel the event
+                CancelEvent();
+            }
+        });
+
+
+          $(document).ready(function(){
+                     $.ajaxSetup({
+               
+                       headers: {
+               
+                       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+               
+                       }
+               
+                       });
+            var frm = $('#logo_upload_form');
+
+            frm.submit(function (e) {
+                
+                var formData = new FormData($(this)[0]);
+               
+                 var file = document.querySelector("#logo");
+                if(file.files[0]==undefined){
+                        $('#upload_msg').css('color', 'red');
+                         document.getElementById("upload_msg").innerHTML ='Select An Image';
+                            setTimeout(function() {
+                               
+                            }, 3000); 
+                } else{
+
+                     fileSize =file.files[0].size //size in kb
+                        fileSize = fileSize / 1048576; //size in mb 
+
+                    if ( /\.(jpe?g|png|PNG|JPG|JPEG)$/i.test(file.files[0].name) === false ) { 
+                        $('#upload_msg').css('color', 'red');
+                         document.getElementById("upload_msg").innerHTML ='Invalid Image Type';
+                            setTimeout(function() {
+                                document.getElementById("upload_msg").innerHTML ="";
+                            }, 2000); 
+                    }
+
+                    else{
+
+                         if(fileSize>5 ){
+                            $('#upload_msg').css('color', 'red');
+                        document.getElementById("upload_msg").innerHTML ='File size exceeds the limit';
+                            setTimeout(function() {
+                                document.getElementById("upload_msg").innerHTML ="";
+                            }, 2000); 
+                    }
+                    else{
+                        $("#submit_button").hide();
+                                $.ajax({
+                                url: "https://www.sih.gov.in/upload_logo",
+                                data:formData,
+                                dataType:'json',
+                                type:'post',
+                                processData: false,
+                                contentType: false,
+                                success: function (data) {
+                                    if(data.msg=="Successfully Uploaded"){
+                                        $('#upload_msg').css('color', 'green');
+                                        $("#submit_button").hide();
+                                        $('#logo_upload_form')[0].reset();
+                            document.getElementById("upload_msg").innerHTML =data.msg;
+                            $('#logo_image').attr('src',data.Full_image);
+                            $('#thumnail_image').attr('src',data.Full_image);
+                            
+                            setTimeout(function() {
+                               
+                            }, 2000); 
+                                    }
+
+                                    else{
+                                        $("#submit_button").show();
+                                        $('#upload_msg').css('color', 'red');
+                            document.getElementById("upload_msg").innerHTML =data.msg;
+                            setTimeout(function() {
+                               
+                            }, 2000); 
+                                    }
+
+                          
+                                },
+                                error: function (data) {
+                               
+                                },
+                                });
+
+                    }
+
+                       
+                        
+                        }
+                }
+               
+                e.preventDefault();       
+         });
+  
+               });
+
+               function showlogoUploadSubmitButton(){
+                $("#submit_button").show();
+                $('#logo_upload_form')[0].reset();
+                document.getElementById("upload_msg").innerHTML ="";
+               }
+
+               function  gotoStatement_comment(id){
+                var url="https://www.sih.gov.in/edit_problem_statement/"+id;
+                var win = window.open(url, '_self');
+                win.focus();
+            }
+
+            
+        </script>
+        
+
+    <script>
+    $('.Avoid_Right_Click').bind('contextmenu', function(e) {
+    return false;
+    }); 
+    </script>
+
+
+<div id="problemstatement_type_modal" class="modal fade" role="dialog">
+        <div class="modal-dialog" style="width:97%">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+             
+                    <input type="radio" style="margin-left: 7%;" name="User_Register_Type"  value="1"  onclick="SendUserToItsPage(4)">
+                    <span class="sign_up_type" style="color:orange">Problem statements from Organizations/ Ministries</span>&nbsp;&nbsp;&nbsp; 
+
+                    <input type="radio" style="margin-left: 15%;"  name="User_Register_Type"  value="2" onclick="SendUserToItsPage(5)">
+                    <span class="sign_up_type" style="color:orange">Students Innovation</span> 
+                    </div>
+                    <div class="modal-footer"></div> 
+                     <div class="col-md-12">     
+                       
+                    </div>
+                  <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      
         </div>
-        <div class="lockup header-lockup" ng-click="app.goToHome()" itemscope itemprop="provider" itemtype="http://schema.org/Organization">
-          <meta itemprop="name" content="Google Fonts"/>
-          <span class="lockup-logo"></span>
-          <span class="lockup-brand">&nbsp;Fonts</span>
-        </div>
-        <nav class="header-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
-          <ul class="header-nav-list">
-            <li>
-              <a href="#" class="header-nav-link" ng-click="app.router.goToDirectory()" ng-mouseup="app.isNavDrawerOpen = false" ng-class="{
-                  'is-active': app.router.isDirectory
-                }">Directory</a>
-            </li>
-            <li>
-              <a href="#" class="header-nav-link" ng-click="app.router.goToFeatured()" ng-mouseup="app.isNavDrawerOpen = false" ng-class="{
-                  'is-active': app.router.isFeatured
-                }">Featured</a>
-            </li>
-            <li>
-              <a href="https://design.google/library/google-fonts/?utm_source=Google&utm_medium=Fonts&utm_campaign=Article%20Tab" class="header-nav-link">Articles</a>
-            </li>
-            <li>
-              <a href="#" class="header-nav-link" ng-click="app.router.goToAbout()" ng-mouseup="app.isNavDrawerOpen = false" ng-class="{
-                  'is-active': app.router.isAbout
-                }">About</a>
-            </li>
-          </ul>
-        </nav>
-        <gf-theme-chooser class="header-theme-chooser">
-          <button md-button class="md-button md-icon-button header-icon theme-chooser-toggle" ng-click="themeChooser.toggle(true)" aria-label="Change background color" title="Change background color">
-            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-              <path class="theme-chooser-icon-bucket" d="M16.56 8.94L7.62 0 6.21 1.41l2.38 2.38-5.15 5.15c-.59.59-.59 1.54 0 2.12l5.5 5.5c.29.29.68.44 1.06.44s.77-.15 1.06-.44l5.5-5.5c.59-.58.59-1.53 0-2.12zM5.21 10L10 5.21 14.79 10H5.21zM19 11.5s-2 2.17-2 3.5c0 1.1.9 2 2 2s2-.9 2-2c0-1.33-2-3.5-2-3.5z"/>
-              <path class="theme-chooser-icon-paint" d="M0 20h24v4H0z"/>
-            </svg>
-          </button>
-        </gf-theme-chooser>
-        <md-button class="header-close-search-button md-icon-button header-icon" ng-click="app.userPressedCloseSearch()" title="Hide search and filters" aria-label="Hide search and filters">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-            <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
-          </svg>
-        </md-button>
-        <div class="header-corner header-search-button-container">
-          <button class="md-button md-icon-button header-icon header-search-button" md-button md-no-ink ng-class="{
-                    'search-is-active': app.isSearchActive
-                  }" ng-click="app.userPressedOpenSearch()" title="Show search and filters" aria-label="Show search and filters">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-              <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
-            </svg>
-          </button>
-        </div>
-      </header>
-      <gf-drawer id="nav-drawer" class="drawer-is-left-docked" is-open="app.isNavDrawerOpen" is-persistent="::false" disable-autofocus="app.isMobileLayout">
-        <gf-nav-panel></gf-nav-panel>
-      </gf-drawer>
-      <main id="main" ng-view autoscroll="!app.router.isDirectory" ng-class="app.layoutClass" itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement"></main>
-      <gf-drawer id="search-drawer" class="drawer-is-right-docked" is-open="app.isSearchDrawerOpen" is-persistent="app.isSearchDrawerPersistent" disable-autofocus="app.isMobileLayout">
-        <gf-search-panel close-on-query-enter="app.isMobileLayout"></gf-search-panel>
-      </gf-drawer>
-      <div id="collection-drawer-layout-container" ng-class="app.layoutClass">
-        <gf-collection-drawer is-open="app.isCollectionDrawerOpen" is-mobile-layout="app.isMobileLayout">
-        </gf-collection-drawer>
       </div>
-      <footer id="footer" gf-footer ng-class="app.layoutClass">
-        <span class="footer-link">
-          <a href="//www.google.com/intl/en/policies/terms/" data-category="Site-Wide Custom Events" data-label="Footer terms link" data-footer-link-id="terms">Terms</a>
-        </span>
-        <span class="footer-link">
-          <a href="//www.google.com/intl/en/policies/privacy/" data-category="Site-Wide Custom Events" data-label="Footer privacy link" data-footer-link-id="privacy">Privacy</a>
-        </span>
-      </footer>
-      <md-button id="feedback-button" class="md-icon-button" ng-click="app.startFeedback()" ng-class="app.layoutClass" title="Leave feedback" aria-label="Leave feedback">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24">
-          <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 12h-2v-2h2v2zm0-4h-2V6h2v4z"/>
-        </svg>
-      </md-button>
-    </div>
-<script>window['API_BASE_URL'] = '\/'; window['STYLE_DOMAIN'] = 'fonts.googleapis.com'; window['LOG_DEBUG'] =  1.0 ; window['ENABLE_EXPERIMENTAL_SCRIPTS'] =  0.0 ; window['ENABLE_EXPERIMENTAL_VF_UI'] =  0.0 ;</script><script id="base-js" src="//www.gstatic.com/_/fonts/_/js/k=fonts.app.en_US.S8hizdpKqP8.O/rt=j/d=1/rs=AE60u5dp8_d0NP6bLZM7kNQIpFqOFQgKFg/m=core" async></script></body></html>
+
+
+
+<div id="Registeration_type_modal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header" style="color: #33A75C">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden='true'>&times;</button>
+                  <h4 class="modal-title" style="font-size: 20px; font-weight: bold; text-align: center;">Select Registration Type</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                    <div class="col-md-4" style="border-right: 1px dotted #C2C2C2; padding-left: 7%; height: 135px;"><img class="navbar-brand" style="height:65px;" src="https://www.sih.gov.in/img/logo.png" />
+                    </div>
+    
+                 <div class="col-md-8" style="padding-left: 10%">
+                    <input style="transform:scale(1.3);" type="radio" name="User_Register_Type"  value="1"  onclick="SendUserToItsPage(1)">
+                        <span class="sign_up_type" style="color:#03132E">Problem Statement Creater</span>&nbsp;&nbsp;&nbsp;  
+                        <br>
+                        <input style="transform:scale(1.3);" type="radio" name="User_Register_Type"  value="2" onclick="SendUserToItsPage(2)">
+                        <span class="sign_up_type" style="color:#03132E">College Faculty SPOC</span>&nbsp;&nbsp;&nbsp; 
+                        <br>
+                        <input style="transform:scale(1.3);" type="radio" name="User_Register_Type" value="3" onclick="SendUserToItsPage(3)" >
+                        <span class="sign_up_type" style="color:#03132E">Students Team Leader</span>&nbsp;&nbsp;&nbsp;
+                        
+                        <!-- <br><input type="radio" name="User_Register_Type" value="4" onclick="SendUserToItsPage(4)" >
+                        <span class="sign_up_type" style="color:#03132E">Company SPOC</span>&nbsp;&nbsp;&nbsp; -->
+                    </div>
+                   </div>      
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+            <script>
+            function SendUserToItsPage(input){
+switch (input) {
+    case 1:
+    window.open("https://www.sih.gov.in/signup","_self");
+    break;
+
+    case 2:
+    window.open("https://www.sih.gov.in/collegeRegistration","_self");
+    break;
+
+    case 3:
+    window.open("https://www.sih.gov.in/studentRegistration","_self");
+     break;
+
+    case 4:
+    window.open("https://www.sih.gov.in/sih2019ProblemStatements","_self");
+     break;
+     
+    case 5:
+    window.open("https://www.sih.gov.in/sih2019ProblemStatementstudentInnovation","_self");
+     break;   
+}
+
+    }
+
+//     $(document).ready(function() {
+//     $('.js-example-basic-single').select2();
+// });
+
+ $(document).ready(function () {
+        $('#College_Name').typeahead({
+            source: function (query, result) {
+
+                
+                if(query.length>=2){
+                    document.getElementById("college_search_loader").style.display = "block";
+                   setTimeout(function() {
+                $.ajax({
+                    url: "https://www.sih.gov.in/search_college_name",
+					data: 'query=' + query,            
+                    dataType: "json",
+                    type: "POST",
+                    success: function (data) {
+						result($.map(data, function (item) {
+							return item;
+                        }));
+                    }
+                    
+                });
+                document.getElementById("college_search_loader").style.display = "none";
+            }, 3000);
+                }
+            },
+            updater:function (item) {
+                $('[id$=selected_college]').val(item.aicte_code);
+                return item;
+}
+        });
+
+
+         $('#type_head_display_name').typeahead({
+            source: function (query, result) {
+
+                if(query.length>=2){
+                    document.getElementById("college_search_loader").style.display = "block";
+                   setTimeout(function() {
+                $.ajax({
+                    url: "https://www.sih.gov.in/search_college_name",
+					data: 'query=' + query,            
+                    dataType: "json",
+                    type: "POST",
+                    success: function (data) {
+						result($.map(data, function (item) {
+							return item;
+                        }));
+                    }
+                    
+                });
+                document.getElementById("college_search_loader").style.display = "none";
+            }, 3000);
+                }
+                
+
+                
+            },
+            updater:function (item) {
+                $('[id$=College_Name_for_Student]').val(item.id);
+                return item;
+}
+        });
+    });
+
+    function sendToproblemStatement(){
+        // window.open("https://www.sih.gov.in/sih2019ProblemStatements","_self");
+        
+    }
+
+    function hideThis(){
+    $('#HideThisSubmitButton').hide();  
+  }
+
+          </script>
+
+
+
+
+   
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"441b2e5302","applicationID":"232363356","transactionName":"ZwRUNhdWXBFWVRZdC15OdwERXl0MGF4NWQE=","queueTime":0,"applicationTime":76,"atts":"S0NXQF9MTx8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+</html>
