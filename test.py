@@ -28,7 +28,7 @@ def main(url):
     elif int(pred[0]) == -1:
         # print "The website has phishing features. DO NOT VISIT!"
         print("PHISHING")
-        return "PHISHING"
+        return "MALICIOUS"
         # print 'Error -', features_test
 
 
