@@ -1,5 +1,5 @@
 # Web URL Detection(Malicious/Safe) using Machine Learning
-
+This project is made to help people to detect malicious URL using machine learning.
 ### Steps for reproducing the project -
 * Install all the required packages using the following command - ```pip install -r requirements.txt```.
 * Run the Flask App - ```python myapp.py```
